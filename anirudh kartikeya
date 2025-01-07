@@ -1,0 +1,83 @@
+dynamic type languages :-
+1.primitive datatypes 
+2.non preimitive datatypes 
+To check the type  of data:-typeof
+•	Number :- int,float
+•	String:-stream of characters
+•	Boolean:-true or false
+•	Null:-undefined:-delcard variable with no value
+
+for single quotes and ” for double quotes. Use single quotes to escape single quotes and double quotes to escape double quotes.
+Java 
+Data types :
+1.Dynamic type language
+Two types :
+1.Primitive data type
+2.Non-primitive data type
+To check the data type - typeof
+1.Primitive data type : predefined  ;we can store single values
+1.Numbers : integers,floats
+2.String : stream of characters enclosed in quotes
+ ---single, double ,backtick quotes ;
+3.Boolean : true or false
+4.Null : empty value or no value
+5.undefined : declared variable with no value
+
+1)Numbers :
+EX:1,-1,-4.4,5.6
+2.Strings : stream of characters enclosed in quotes
+ ---single , double , backtick quotes ;
+Single and Double works same
+---Back ticks introduced in ES6 version
+---it provides extra functionality ; we can insert the variables into them
+
+String Concatination :
+a=virat
+b=kholi
+#Reactjs Student = virat kholi 
+
+#Hackerrank
+#leetcode  #Js, react js
+#written test : coding test
+#technical
+#conditional statements: 1-10  #block of times
+
+
+let time = " hello my name is anirudh";
+// console.log(time.indexOf('n'));
+
+// let time='   hello time is over  ';
+// time.slice(3);
+
+// let a =10;
+// let b = 20;
+// console.log( `hi +${ a + b}`)
+
+// let a =10;
+// let b = 20;
+//  console.log('hi '+ (a+b))
+
+// let a=  'hello ';
+//  let b = 'my ';
+//  let c= 'age is '
+//  let d = 20;
+//  console.log(a +b+c+d)
+
+data.trim()
+'im the king of jungle'
+    Math.pi
+undefined
+pi
+VM2264:1 Uncaught ReferenceError: pi is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM2264:1
+Math.PI
+3.141592653589793
+Math.random()
+0.0767640849230804
+Math.random()
+0.8065603420707459
+Math.random()
+0.9770169296152613
+Math.random()
+0.3716191147353243
