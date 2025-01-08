@@ -1,0 +1,74 @@
+&&	and	(x < 10 && y > 1) is true	
+||	or	(x == 5 || y == 5) is false	
+!	not	!(x == y) is true	
+
+
+-Arithmetic Operators are used to perform arithmetic on numbers
+-he Addition Assignment Operator (+=) adds a value to a variable.
+&	AND	Sets each bit to 1 if both bits are 1
+|	OR	Sets each bit to 1 if one of two bits is 1
+^	XOR	Sets each bit to 1 if only one of two bits is 1
+~	NOT	Inverts all the bits
+Comparison operators are used in logical statements to know the  equality or difference between variables or values.
+
+let a =10;
+// let b = 20;
+// console.log( `hi +${ a + b}`)
+
+// let a =10;
+// let b = 20;
+//  console.log('hi '+ (a+b))
+
+// let a=  'hello ';
+//  let b = 'my ';
+//  let c= 'age is '
+//  let d = 20;
+//  console.log(a +b+c+d)
+
+// let day=prompt("enter the day of thw week")
+// if(day=== "monday"){
+//     console.log("today is monday")
+// }
+
+// let a =10
+// let b=20
+// console.log(a*b)
+
+// console.log(a/b)
+
+// console.log(a+b)
+
+// console.log(a-b)
+
+// let age = prompt("enter the age of patients")
+// if(age<45){
+//     if(age<15){
+//         console.log("the pateint is a child")
+//     }
+//     else if(age>=10){
+//         console.log("the patient is a teenager")
+//     }
+// }
+// else if(age>=45){
+//     if(age<=60){
+//         console.log("the  patient is a middle age person")
+//     }
+//     else if(age>60){
+//         console.log("the patient is a old age person")
+//     }
+// }
+
+
+// let a=100
+// let b='100'
+// console.log(a!=b)
+// console.log(a==b)
+
+
+// let age=prompt("enter the age")
+// if(age<10 || age>60){
+//     console.log("you r not allowed to enter")
+// }
+// else{
+//     console.log("u are allowed to enter")
+// }
