@@ -1,0 +1,35 @@
+Conditional statement :-
+To make the set instrutions execute only whne the give conditions are true 
+Used to decide whether the code has to be executed or skpid based on the given conditions
+Block of code:-se of instructions
+Condition:-an expresions tht value the evaluates an result .
+
+Methods :-
+If 
+If else
+Else
+Switch
+Ternary operator
+Syntax:-
+if (condition) {
+  //  block of 
+}
+let a =prompt("enter the score")
+let b=prompt('enter the score')
+ if(a>300||b >300){
+    
+    
+    if(a+b<500){
+        console.log("u can team up")
+    }
+ }
+ else {
+    console.log('u cannot team up')
+      
+// let age=prompt("enter the age")
+// if(age<10 || age>60){
+//     console.log("you r not allowed to enter")
+// }
+// else{
+//     console.log("u are allowed to enter")
+// }
