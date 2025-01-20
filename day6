@@ -1,0 +1,36 @@
+// const age=20
+// let ages=parseInt(prompt("enter the age"));
+// while(age!==ages){
+
+
+//     let ages=parseInt(prompt("enter the age"));
+// }
+// if (age===20){
+//     console.log("the  age is correct" )
+//     break;
+// }
+
+// const name1= 'anirudh';
+// let data=prompt('enter the name of student')
+// while(data!==name1){
+
+// }
+
+// for( let i=5;i<=11;i=i+3){
+//     console.log(i)
+// }
+// let name='chiru';
+// for (i=1;1<=5;i++){
+//     console.log(i)
+// }
+
+for ( let i=9;i<=90;i=i+9){
+    
+    
+    
+} 
+
+for(let j=1;j<=10;j++){
+    console.log('9*'+j+i)
+    
+}
