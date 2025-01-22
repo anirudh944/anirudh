@@ -1,0 +1,69 @@
+
+// console.log(num);
+//  let i=2,n=8;
+//  while(i<=n){
+//     console.log(i+1)
+//  }
+
+// const names='anirudh'
+// let num = prompt('enter the name')
+
+
+// while (num!==names) {
+//     let num = prompt('enter the name')
+//     break;
+    
+// }
+
+// for (let i=2;i<=8; i=i+1){
+//     if(i>6){
+//         break;
+//     }
+//     console.log(i+1)
+// }
+
+// for (let i=2;i<=8; i=i+1){
+//         if(i>10){
+//             continue;
+//         }
+//         console.log(i+2)
+//     }
+
+// for(let i=1;i<=5;i++){
+//     document.write('*[i]')
+//     for(let j=1;j<=i;j++){
+//         document.write(j)
+//     }
+
+// }
+// let n = 5; 
+// for (let i = 1; i <= n; i++) {
+  
+//   for (let j = 1; j <= i; j++) {
+//     document.write(j); 
+//   }
+//   document.write("<br>");
+// }
+
+// for(let i=5; i>=1; i--){
+//     for(let j=i;j>=1;j--){
+//       document.write('*')
+//     }
+//     document.write("<br>")
+//       }
+
+
+javasript
+1
+12
+123
+1234
+12345
+
+  javasript
+*****
+****
+***
+**
+*
+
