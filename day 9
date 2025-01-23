@@ -1,0 +1,46 @@
+// function greet(){
+//     console.log("hi venkat ")
+// }
+// greet()
+// function greeting(){
+// console.log('hi ravi')
+// }
+// greet()
+//  console.log('hi ganesh')
+//  greet()
+//  greeting()
+
+
+// function g(names){
+//     console.log('hello'+names)
+// }
+// let names=prompt('enter the name')
+
+// g(names)
+
+// function add(a,b){
+//     console.log(a+b)
+// }
+// let a=parseInt(prompt('enter the value'))
+
+// let b=parseInt(prompt('enter the value'))
+// add(a,b)
+
+// function a(a,b){
+//     return(a+b)
+// }
+// let n1=parseFloat(prompt('enter the value'))
+// let n2=parseFloat(prompt('enter the value'))
+// let result=a(n1,n2)
+// console.log('the sum is : '+result)
+
+// sum=function(n1,n2){
+//     let r=n1+n2
+//     return r
+// }
+// console.log(sum(1,2))
+
+function prime(a){
+    if (a<=1)
+
+      
