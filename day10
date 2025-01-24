@@ -1,0 +1,76 @@
+// let c=()=>{
+//     console.log("hi venkat")
+// }
+// c()
+
+// let x=prompt('enter the vlaue')
+// let y=prompt('enter the value')=>{
+//     console.log(a+b)
+
+// }
+// x()
+// y()
+// let x=()=>
+// let y=()=>{
+
+// }
+
+// let age=14;
+// let welcome=(age<18)?
+//     ()=>console.log('hi chaitanya'):
+//     ()=>console.log('hi mandhu');
+//     welcome()
+
+
+// function task1(){
+//     console.log("task1:start")
+
+// }
+// function task2(){
+//     console.log("task2:start")
+
+// }
+// function task3(){
+//     console.log("task3:start")
+
+// }
+// task1()
+// task2()
+// task3()
+
+// console.log("hi ravi");
+// setTimeout(() =>{
+//     console.log('hi im waiting')
+// },5000);
+// setTimeout(() =>{
+//     console.log('hi im still waiting')
+// },10000);
+// console.log('im in lab')
+// console.log('im in colege')
+
+// function greet(name,callback){
+//     console.log(`hello,${name}!`)
+//     callback();
+// }
+// function saygoodbye(){
+//     console.log('goodbye')
+// } 
+// greet("sam",saygoodbye)
+
+outpus:-
+3
+hi venkat
+tr1.js:322
+30
+tr1.js:327
+Uncaught ReferenceError ReferenceError: a is not defined
+    at <anonymous> (c:\Users\aniru\OneDrive\Desktop\trainingmru\tr1.js:330:3)
+tr1.js:330
+2
+hi mandhu
+tr1.js:341
+hi chaitanya
+tr1.js:340
+2
+task1:start
+tr1.js:346
