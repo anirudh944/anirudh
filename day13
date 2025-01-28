@@ -1,0 +1,72 @@
+
+DOM:-
+The HTML DOM is a standard object model and programming interface for HTML. It defines:
+•	The HTML elements as objects
+•	The properties of all HTML elements
+•	The methods to access all HTML elements
+•	The events for all HTML elements
+
+                                            
+When the html file is loaded into the browser  the javascript cannot understand html document directly 
+The HTML DOM is a standard for how to get, change, add, or delete HTML elements.
+
+Keypoints:
+1)Structure: The DOM represents the structure of Html document as tree;each node in a tree represents the element ,an attribute,text
+2)Manipulation: using js,you can interact with elements(buttons) we can modify,add ,remove the elements
+3)Event Handling
+4)W3C-World Wide Web Cosortium
+
+
+  <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a{
+            color: aqua;
+            background-color: antiquewhite;
+
+        }
+        .b{
+            color: blue;
+            background-color: antiquewhite;
+        }
+        .c{
+            color: blueviolet;
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="a" id="z">John Doe</h1>
+    <h1 class="a" id="b">Jane Smith</h1>
+    <h1 class="a" id="c">Michael Johnson</h1>
+    <h1 class="b" id="d">Emily Davis</h1>
+    <h1 class="b" id="e">David Brown</h1>
+    <h1 class="b" id="f">Sarah Wilson</h1>
+    <h1 class="c" id="g">Chris Lee</h1>
+    <h1 class="c" id="h">Jessica Taylor</h1>
+    <h1 class="c" id="i">Daniel Anderson</h1>
+
+
+
+    <script>
+       // let x= document.getElementById(z)
+       // console.log(z)
+       let m =document.getElementsByClassName(a)
+       console.log(m)
+
+    </script>
+</body>
+</html>
+
+      John Doe
+Jane Smith
+Michael Johnson
+Emily Davis
+David Brown
+Sarah Wilson
+Chris Lee
+Jessica Taylor
+Daniel Anderson
