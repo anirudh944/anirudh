@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="a">venakt</h1>
+    <h1 class="b">ravi</h1>
+    <h1 class="a">mani</h1>
+    
+    <script>
+        //let x=document.getElementsByClassName('a')
+        //for(let i=0;i<=x.length;i++){
+
+           // console.log(x[i])
+       // }
+        //let x=document.querySelector('h1')
+       // console.log(x)
+
+       
+       const t=["Venky","Reddy","Polu"]
+for(let i=0; i<t.length;i++){
+    let tt=document.createElement('h2')
+    tt.className="aa"
+    tt.textContent=t[i];
+    console.log(tt)
+    
+}
+    </script>
+</body>
+</html>
+/////////////////////////////
+      h1.a
+dom1.html:16
+undefined
+dom1.html:16
+null
+dom1.html:19
+h1.a
+dom1.html:19
+h2.aa
+dom1.html:25
+h2.aa
+dom1.html:25
+h2.aa
+  HTMLCollection(3) [h1.a, h1.a, h1.a]
+dom1.html:14
+h1.a
+dom1.html:16
+h1.a
+dom1.html:16
+h1.a
+dom1.html:16
+undefined
