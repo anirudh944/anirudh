@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>removing the getElementsByClassName</h1>
+    <h2>unorderd list </h2>
+    <ul>
+        <li>ganesh</li>
+        <li>ravi</li>
+        <li>manhesh</li>
+    </ul>
+    
+
+
+    <script> const ul = document.querySelector('ul');
+        const lists = document.querySelectorAll('li');
+        console.log(ul)
+        console.log(lists)
+        for (const list of lists){
+            console.log('removing: ${list.textContent}')
+            ul.removeChild(list)
+           console.log(lists)
+            console.log(list)
+        }
+        
+    </script>
+</body>
+</html>
+
+      ///////output /////
+      ul
+dom2.html:20
+NodeList(3) [li, li, li]
+dom2.html:21
+Uncaught ReferenceError ReferenceError: list is not defined
+    at <anonymous> (c:\Users\aniru\OneDrive\Desktop\trainingmru\dom\dom2.html:23:37)
+dom2.html:23
+ul
+dom2.html:20
+NodeList(3) [li, li, li]
+dom2.html:21
+removing:ganesh
+dom2.html:23
