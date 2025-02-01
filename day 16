@@ -1,0 +1,53 @@
+// let a=parseInt(prompt('enter  the age'))
+// if(a>=18){
+//     let b=prompt('r u a citizn of india?')
+//     if(b==='yes'){
+//         console.log("u r eligble to vote ")
+//     }
+//     else{
+//     let c=prompt('did u pass the citizenship test ')
+//     if(c==='yes'){
+//         console.log('u r eligble to vote')
+//     }
+//     else{
+//         console.log('u r not eligble to vote ')
+//     }
+// }
+// }
+// else{
+//     console.log('u cannot vote')
+// }
+
+
+let a=parseInt(prompt('enter  the amount '))
+if(a>=100){
+    const b=((20/100)*a)
+    const e=a-b
+    console.log( 'the discounted amount is '+e)
+}
+else if(a>=50 && a<100){
+    const c=((10/100)*a)
+    const f=(a-c)
+    console.log('the discounted amount is'+f)
+}
+// let d=prompt('r u a premium customer')
+// // if(d==="yes"){
+// //     cosnt 
+// //     console.log('the dicounted amount is '+ )
+
+
+
+output:-
+  u r not eligble to vote 
+practice.js:12
+u r eligble to vote 
+practice.js:5
+u r eligble to vote
+practice.js:9
+u r eligble to vote 
+practice.js:5
+u cannot vote
+practice.js:18
+u r eligble to vote 
+practice.js:5
+u r not eligble to vote 
