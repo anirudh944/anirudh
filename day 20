@@ -1,0 +1,66 @@
+// import React from 'react'
+// import './App.css'
+// import Welcome from'./Welcome'
+
+// const App=()=>{
+//   return(
+//     <div style={{textAlign:'center',color:'red'}}> 
+//     <Welcome name="ciru" greeting="hello"/>
+//   </div>
+//   )
+// }
+
+// const  Welcome=()=><h1 className="message"> hello ravi</h1>
+
+// function App() {
+//   return(
+//     <div className='App'>
+//       <Welcome/>
+//     </div>
+//   );
+  
+// }
+//  export default App;
+
+
+// import React from 'react'
+// import Greetings from './Greetings'
+
+// function App() {
+//   const isLoggedIn=false;
+//   return (
+//     <div className="App">
+//       <Greetings isLoggedIn={isLoggedIn} />
+//     </div>
+//     )
+//     }
+//     export default App;
+
+import React from "react";
+const FruitsList=()=>{
+    const Fruits=['apple','cherry','orange','grapes'];
+    return(
+        <div>
+            <h1> fruits</h1>
+            <ul>
+                {Fruits.map((Fruits,index)=>(
+                    <li key={index}>{Fruits}</li>
+                ))}
+            </ul>
+        </div>
+    )
+}
+export default FruitsList;
+
+
+
+import React from'react';
+function Greetings({isLoggedIn}) {
+    if(isLoggedIn){
+        return <h1> Welcome Back</h1>
+    }else{
+        return<h1>please login</h1>
+    }
+    
+} 
+export default Greetings;
