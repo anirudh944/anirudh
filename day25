@@ -1,0 +1,86 @@
+// export default App;
+//  
+// import React,{useState}from 'react';
+// import Child from './Child';
+// const Parent = () => {
+//   const [message, setMessage] = useState('Hello World');
+//   const changeMessage=()=>{
+//     setMessage('You clicked the button');
+//   };
+//   return (
+//     <div>
+//       <h1>{message}</h1>
+//       <Child changeMessage={changeMessage} />
+//     </div>
+//   )
+
+// }
+// function App(){
+//     const handleClick=()=>{
+//         alert("button clicked")
+//     };
+//     return(
+//         <button onClick={handleClick}> click me</button>
+//     )
+// } 
+// export default App;
+
+// import React,{useState} from 'react';
+// function App(){
+//   const[text,setText]=useState("")
+//   const handleChange=(event)=>{
+//     setText(event.target.value)
+//   }
+//   return(
+//     <div>
+//       <input type="text" value={text} onChange={handleChange} />
+//       <p>Text: {text}</p>
+
+//     </div>
+//   )
+// }
+// export default App;
+
+//  import React,{useState} from 'react';
+//  import './App.css';
+
+// function App() {
+//   const [text, setText] = useState("");
+//   const handleChange = (event) => {
+//     setText(event.target.value);
+//   };
+//   return (
+//     <div className="container">
+//       <input type="text" value={text} onChange={handleChange} />
+//       <p>Text: {text}</p>
+//     </div>
+//   );
+// }
+
+// 
+
+
+import React,{useState} from 'react';
+import './App.css';
+
+function App() {
+ const [isHovered,setisHovered] = useState(false);
+ const handleMouseEnter =()=>{
+   setisHovered(true);
+ }
+ const handleMouseLeave =()=>{
+    setisHovered(false);
+
+ };
+ return(
+    <div>
+        <button onMouseEnter={handleMouseEnter} 
+        onMouseLeave={handleMouseLeave}
+            style={{backgroundColor: isHovered?'lightblue':'lihtgrey',
+                color:isHovered?'white':'black'
+            }}>Hover me</button>
+        {isHovered && <p> mouse is ovrrt the button!</p>}
+    </div>
+ );
+}
+export default App;
