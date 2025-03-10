@@ -1,0 +1,50 @@
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
+import "./Mobiles.css"
+ 
+ const Mobiles = () => {
+    const [mobiles,SetMobiles]=useState
+    const get_mobiles=async()=>{
+        await axios.get();
+        const {data}= res;
+        SetMobiles(data);
+    } 
+    useEffect(()=>{
+        get_mobiles();
+    })
+    return (
+        <>
+        <div classname="parent">
+            {
+                mobiles.map((element,index)=>{
+                    return(
+                        <div classname="chilld" key={index}>
+                            <img src={element.pimage}></img>
+                            <h4>{element.pname}</h4>
+                            <h4>{element.pcost}</h4>
+                            <h4>{element.pqty}</h4>
+                        </div>
+                    )
+                })
+            }
+        </div>
+        </>
+        
+    )
+    }
+
+
+css------------
+.parent{
+    flex-wrap: wrap;
+    gap:2rem;
+    justify-content: center;
+    align-items: center;
+ }
+ .child{
+    border: 1px solid grey;
+    border-radius: 20px;
+    height: 400PX;
+    width: 300px;
+    display: flex;
+ }
