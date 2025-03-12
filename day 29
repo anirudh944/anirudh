@@ -1,0 +1,37 @@
+import { useEffect, useState } from "react";
+import axios from "axios";
+
+const Mobiles = () => {
+    const [mobiles, setMobiles] = useState([]);
+    const getMobiles = async () => {
+        const result = await axios.get("");
+            const {data}= res;
+            setMobiles(data);
+    }
+    useEffect(() => {
+        getMobiles();
+    }, []);
+
+    return(
+        <>
+            <div className="parent">
+                {
+                    mobiles.map((element,index)=>{
+                        return(
+                            <div className="child" key={index}>
+                                <img src={element.pimage}></img>
+                                <h2><i classname="fa fa-rupee"></i>{element.pcsot}</h2>
+                                <p>{element.pqty}</p>
+                            </div>
+                            
+
+                        )
+                    })
+                }
+            </div>
+        </>
+
+    )
+
+}
+export default Mobiles;
